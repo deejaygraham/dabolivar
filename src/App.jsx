@@ -6,9 +6,6 @@ import { Provider } from 'react-redux';
 import styled from 'styled-components';
 import store from './redux/store';
 import Main from './Main';
-import About from './About';
-import NicetyAdd from './NicetyAdd';
-import createDatabase from './utils/dbconnection';
 
 const Wrapper = styled.main`
   display: flex;
@@ -22,8 +19,6 @@ const Wrapper = styled.main`
   width: 100%;
 `;
 
-const db = createDatabase();
-
 const FourOhFour = () => <h1>404</h1>;
 
 const App = () =>
@@ -31,9 +26,7 @@ const App = () =>
     <Provider store={store}>
       <Wrapper>
         <Switch>
-          <Route exact path="/" component={() => <Main db={db} />} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/nicetyAdd" component={() => <NicetyAdd db={db} />} />
+          <Route exact path="/" component={Main} />
           <Route component={FourOhFour} />
         </Switch>
       </Wrapper>
