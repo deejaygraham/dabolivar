@@ -3,6 +3,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { connect } from 'react-redux';
+import { setNicetiesSearchTerm } from './redux/actionCreators';
 
 const Wrapper = styled.header`
   display: flex;
@@ -19,6 +21,11 @@ const Wrapper = styled.header`
     color: black;
     & > a {
       color: inherit;
+      transition: all 0.2s ease-in-out;
+      &:focus {
+        outline: none;
+        background: rgba(239, 241, 243, 0.5);
+      }
     }
   }
   .header__search {
@@ -35,7 +42,7 @@ const Wrapper = styled.header`
     margin-top: 10px;
     &:focus {
       transform: scale(1.2);
-      background: rgba(239, 241, 243, 0.2);
+      background: rgba(239, 241, 243, 0.5);
       @media all and (min-width: 720px) {
         transform: scale(1.2) translateX(-7%);
       }
@@ -57,7 +64,7 @@ const Nav = styled.nav`
   }
   .nav__link {
     margin-top: 20px;
-    align-self: flex-end;
+    align-self: flex-start;
     position: relative;
     z-index: 1;
     color: black;
@@ -73,7 +80,10 @@ const Nav = styled.nav`
       z-index: 1px;
     }
     &:hover,
-    &:focus,
+    &:focus {
+      outline: none;
+      background: rgba(239, 241, 243, 0.5);
+    }
     &--selected {
       &::after {
         width: 100%;
@@ -82,24 +92,50 @@ const Nav = styled.nav`
     @media all and (min-width: 720px) {
       font-size: inherit;
       margin-top: 0;
+      align-self: flex-end;
     }
   }
 `;
 
-const Header = (props: { showSearch?: boolean }) =>
+const Header = (props: {
+  showSearch?: boolean,
+  nicetiesSearchTerm: string,
+  handleNicetiesSearchTermChange: Function,
+  selectedLink?: string
+}) =>
   <Wrapper>
     <h1 className="header__title">
       <Link to="/">Niceties</Link>
     </h1>
     <Nav>
-      <Link className={`nav__link ${props.showSearch ? '' : 'nav__link--selected'}`} to="/about">
+      <Link className={`nav__link ${props.selectedLink === 'about' ? 'nav__link--selected' : ''}`} to="/about">
         About
       </Link>
-      {props.showSearch ? <input placeholder="Filter here." type="text" className="header__search" /> : ''}
+      <Link className={`nav__link ${props.selectedLink === 'add' ? 'nav__link--selected' : ''}`} to="/nicetyAdd">
+        Add Nicety
+      </Link>
+      {props.showSearch
+        ? <input
+            onChange={props.handleNicetiesSearchTermChange}
+            value={props.nicetiesSearchTerm}
+            placeholder="Filter here."
+            type="text"
+            className="header__search"
+          />
+        : ''}
     </Nav>
   </Wrapper>;
+
 Header.defaultProps = {
-  showSearch: false
+  showSearch: false,
+  selectedLink: ''
 };
 
-export default Header;
+const mapStateToProps = state => ({ nicetiesSearchTerm: state.nicetiesSearchTerm });
+const mapDispatchToProps = (dispatch: Function) => ({
+  handleNicetiesSearchTermChange(event) {
+    dispatch(setNicetiesSearchTerm(event.target.value));
+  }
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Header);
