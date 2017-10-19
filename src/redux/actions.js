@@ -1,0 +1,4 @@
+// @flow
+export const SET_NICETY_SEARCH_TERM = 'SET_NICETY_SEARCH_TERM';
+export const ADD_NICETIES_DATA = 'ADD_NICETIES_DATA';
+export const ADD_NICETY = 'ADD_NICETY';
