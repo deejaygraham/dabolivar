@@ -93,7 +93,7 @@ const Main = () =>
           <li className="about__linkslistitem">
             <a
               className="about__linkslink"
-              href="https://github.com/ddanielbee/niceties"
+              href="https://github.com/ddanielbee/niceties/tree/niceties"
               target="_blank"
               rel="noopener noreferrer"
             >
