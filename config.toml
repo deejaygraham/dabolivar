@@ -6,7 +6,7 @@ publishDir = "build"
 theme = "minimo"
 
 disqusShortname = ""
-googleAnalytics = ""
+googleAnalytics = "UA-112634013-1"
 
 Paginate = 5
 preserveTaxonomyNames = true
