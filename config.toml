@@ -20,8 +20,8 @@ pygmentsCodefences = true
 defaultContentLanguage = "en"
 
 [params.info]
-description = "I write things"
-title404 = "Nothing's here!"
+description = "Software apprentice @ HolidayCheck. This'll be a daily apprenticeship blog."
+title404 = "Oops, there's nothing here!"
 
 [params.assets]
 favicon = "favicon.ico"
@@ -37,10 +37,10 @@ suffix = ""
 
 [params.settings]
 # date & time format: https://golang.org/pkg/time/
-dateFormat = "2006, Jan 02"
-listDateFormat = "2006, Jan 02"
+dateFormat = "Jan 02, 2006"
+listDateFormat = "Jan 02, 2006"
 hideEntryNavigation = ["page"] # boolean / array of sections
-recentPostsLength = 4
+recentPostsLength = 10
 hideSocialMenu = false
 showReadingTime = true
 noTermCloudShuffle = false
@@ -52,25 +52,25 @@ appID = ""
 pageID = ""
 
 [params.opengraph.twitter]
-page = "" # Twitter page username
+page = "ddanielbee" # Twitter page username
 
 [params.seo]
 # Title Separator: - – — · • * ⋆ | ~ « » < >
 titleSeparator = "•"
 
 [params.social]
-codepen = ""
-email = ""
+codepen = "https://codepen.io/ddanielbee/"
+email = "dbolivar@holidaycheck.com"
 facebook = ""
-github = ""
+github = "https://github.com/ddanielbee"
 instagram = ""
 linkedin = ""
-twitter = ""
+twitter = "https://twitter.com/ddanielbee"
 telegram = ""
 google_scholar = ""
 
 [params.social.config]
-platforms = []
+platforms = ["codepen", "email", "github", "twitter"]
 
 [taxonomies]
 author = "authors"
