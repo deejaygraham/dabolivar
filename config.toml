@@ -2,7 +2,7 @@ baseURL = "http://www.dabolivar.com"
 title = "Daniel Bolivar"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
-
+publishDir = "build"
 theme = "minimo"
 
 disqusShortname = ""
