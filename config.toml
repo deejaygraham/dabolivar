@@ -59,13 +59,13 @@ page = "ddanielbee" # Twitter page username
 titleSeparator = "•"
 
 [params.social]
-codepen = "https://codepen.io/ddanielbee/"
+codepen = "ddanielbee"
 email = "dbolivar@holidaycheck.com"
 facebook = ""
-github = "https://github.com/ddanielbee"
+github = "ddanielbee"
 instagram = ""
 linkedin = ""
-twitter = "https://twitter.com/ddanielbee"
+twitter = "ddanielbee"
 telegram = ""
 google_scholar = ""
 
