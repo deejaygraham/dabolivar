@@ -28,7 +28,7 @@ Both of these patterns deal with our own ignorance, but they manipulate it in a 
 * **Bash** ➡ Really, the most I’ve done here is set up some aliases for git commands.
 * **DevOps** ➡ I know things happen when the system and architecture guys roll up their sleeves.
 * **Visual Regression Testing / Headless Browser Testing** ➡ Everyone’s excited about it, and I have no idea what’s happening.
-* **NoSQL** ➡ Very little MongoDB.
+* **NoSQL** ➡ I saw the first video of a MongoDB course the other day.
 * **Next CSS** ➡ I used variables in Codepen once.
 
 While it may be scary, exposing our ignorance in that way, it’s also kind of liberating. Now I have some very specific, very public gaps in my knowledge that I need to start filling. And that’s exactly what I’ll do, and I’ll update the list as I go along.
