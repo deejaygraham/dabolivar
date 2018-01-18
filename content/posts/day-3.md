@@ -1,7 +1,7 @@
 ---
 title: "Day 3: on language and ignorance"
 date: 2018-01-18T16:47:47+01:00
-draft: true
+draft: false
 authors: ["danielbe"]
 tags: ["apprenticeship", "language", "ignorance"]
 ---
