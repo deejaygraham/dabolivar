@@ -1,5 +1,5 @@
 ---
-title: "Day 2"
+title: "Day 2: on doing"
 date: 2018-01-17T16:06:53+01:00
 draft: false
 authors: ["danielbe"]
@@ -20,6 +20,14 @@ Since I didn’t want to spend more than a couple hours setting up the platform,
 At this point I had a GitHub repository with my blog’s code (first post included) and was ready to deploy it to Netlify. I already had a Netlify instance, so this part was a breeze. I did hit one minor bump in the road when the wrong version of Hugo was being used on deployment by default, but some quick googling landed me [this article](https://www.netlify.com/blog/2017/04/11/netlify-plus-hugo-0.20-and-beyond/) and that solved my issue immediately.
 
 The cool thing about this setup, is that I only need to push a new post to the master branch in my GitHub repo and it’ll get immediately deployed. The whole process was easy, fast and definitely worth it for anyone trying to set up a simple blogging system.
+
+### Edit
+
+A friend of mine asked me
+
+> Why Hugo on Netlify instead of Jekyll on Github Pages?
+
+It was 100% because of [Sara Soueidan's post on migrating to Hugo and Netlify](https://www.sarasoueidan.com/blog/jekyll-ghpages-to-hugo-netlify/). After going through it, I believe I made the right choice.
 
 ## Haskell, FP and Lambda Calculus
 
