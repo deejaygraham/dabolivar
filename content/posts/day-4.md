@@ -6,7 +6,7 @@ authors: ["danielbe"]
 tags: ["apprenticeship", "Kata", "Math"]
 ---
 
-The [dictionary definition](http://www.dictionary.com/browse/kata) of “**Kata**” looks something like this:
+The [dictionary definition](http://www.dictionary.com/browse/kata) of “**Kata**” reads like this:
 
 > an exercise consisting of several of the specific movements of a martial art, especially a pattern prescribed for defending oneself against several attackers, used in judo and karate training.
 
