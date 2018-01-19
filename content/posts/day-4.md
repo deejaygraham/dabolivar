@@ -13,7 +13,7 @@ The [dictionary definition](http://www.dictionary.com/browse/kata) of “**Kata*
 Those of you who are involved in tech might recognize the term as something that’s applied to Software Development as well. In that context, they’re defined as repetitive exercises, where a developer can improve different kinds of particular skills. So, the process of doing Software Katas follows 4 simple steps.
 
 * Choose a Kata. [Here](http://codingdojo.org/kata/) are some examples.
-* Write some code that aims to solving the Kata.
+* Write some code that aims to solve the Kata.
 * Delete all the code you wrote.
 * Repeat the next day (or week, it really doesn’t matter).
 
