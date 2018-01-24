@@ -16,9 +16,9 @@ The idea behind it was to have an impromptu conversation about Tech Debt and Leg
 
 To paint some context: 
 
-** There were 6 of us, all Software Engineers. 
-** Apart from me, I believe no-one had done a lot of preparation beforehand (and that was the whole point, really). 
-** There was no goal. No deliverable of any kind. It was meant to be a purely abstract affair. 
+* There were 6 of us, all Software Engineers. 
+* Apart from me, I believe no-one had done a lot of preparation beforehand (and that was the whole point, really). 
+* There was no goal. No deliverable of any kind. It was meant to be a purely abstract affair. 
 
 ## The unconscious debt
 One of the main discussion points, was wether we could incur in some Tech Debt without realizing it. I believe, acquiring Tech Debt is like making a loan. You need the money now, and don't care about paying a bit more later. But if we follow this metaphor, then there is no way we can get some Tech Debt without us knowing about it (since no-one will ever take a loan unconsciously). This makes the metaphor feel inadequate, as we can definitely get some Tech Debt without knowing, and even when we’re being very careful about it. In his article [The Technical Debt Quadrant](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html), Martin Fowler defines a kind of debt that we acquire unknowingly, but not because we made any mistakes. I like to think of this debt as the _we can't see the future debt_. Because it's exactly that. The most beautiful design and best practices can suddenly turn ugly as our systems evolve. And that's ok. We can't see the future, so all we can do is do our very best in the present, and live with the conviction that we'll keep doing our best for as long as it's necessary. 
@@ -34,9 +34,9 @@ We think old is equal to legacy. And most of the times that may be true, but cod
 
 But then, how can we stop our code from turning into legacy software? Well, we came up with a couple of abstract solutions: 
 
-** You replace it with something newer and better when it gets too painful to work on. 
-** You stop the knowledge of it's inner workings from leaving. This can be achieved by pair programming often and rotating developers to different parts of the code base on a regular basis.
-** You bring it back from the legacy realm into the maintained world of goodness 🌈.
+* You replace it with something newer and better when it gets too painful to work on. 
+* You stop the knowledge of it's inner workings from leaving. This can be achieved by pair programming often and rotating developers to different parts of the code base on a regular basis.
+* You bring it back from the legacy realm into the maintained world of goodness 🌈.
 
 If they all sound rather hard and time consuming to do, that's because they all are. There is no surefire way to stop our code from turning into legacy someday, but we can definitely try. 
 
