@@ -4,6 +4,10 @@ date: 2018-01-16T16:05:40+01:00
 draft: false
 authors: ["danielbe"]
 tags: ["apprenticeship", "craftsmanship"]
+images: ["/img/danielbolivar_avatar.jpeg"]
+twitterbase: 
+  image: /img/danielbolivar_avatar.jpeg
+  caption: Aspiring Software Crafter blog. New content daily.
 ---
 
 New things have a very special way of making us anxious. They plague us with questions, fears, and overall, lots of nasty feelings. Starting a new job has to be one of the hardest of new things, for me at least.

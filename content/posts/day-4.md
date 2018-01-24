@@ -4,6 +4,10 @@ date: 2018-01-19T17:35:01+01:00
 draft: false
 authors: ["danielbe"]
 tags: ["apprenticeship", "Kata", "Math"]
+images: ["/img/danielbolivar_avatar.jpeg"]
+twitterbase: 
+  image: /img/danielbolivar_avatar.jpeg
+  caption: Aspiring Software Crafter blog. New content daily.
 ---
 
 The [dictionary definition](http://www.dictionary.com/browse/kata) of “**Kata**” reads like this:

@@ -4,6 +4,10 @@ date: 2018-01-22T16:59:01+01:00
 draft: false
 authors: ["danielbe"]
 tags: ["apprenticeship", "technical debt"]
+images: ["/img/danielbolivar_avatar.jpeg"]
+twitterbase: 
+  image: /img/danielbolivar_avatar.jpeg
+  caption: Aspiring Software Crafter blog. New content daily.
 ---
 
 The start of a new week was also the busiest day of the apprenticeship so far. It began with the **Matrix Multiplication Kata** where [Wolfram](https://twitter.com/wolframkriesing) and I continued our journey into uncharted math waters. There were multiple head scratches and _Aha!_ moments and I’m sure this will continue the rest of the week. There was some Haskell, lots of Bash (crossing of items from the [dreaded list of ignorance](https://www.dabolivar.com/posts/day-3/#reflecting-on-knowledge-and-ignorance), one at a time) and a very interesting couple hours of research into **Technical Debt** and what we understand by it.

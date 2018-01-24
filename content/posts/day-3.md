@@ -4,6 +4,10 @@ date: 2018-01-18T16:47:47+01:00
 draft: false
 authors: ["danielbe"]
 tags: ["apprenticeship", "language", "ignorance"]
+images: ["/img/danielbolivar_avatar.jpeg"]
+twitterbase: 
+  image: /img/danielbolivar_avatar.jpeg
+  caption: Aspiring Software Crafter blog. New content daily.
 ---
 
 It seems that apprenticeship days have a way of being twofold. On the one hand, there’s a very social aspect of discussing with my mentors and other people involved, and on the other hand, self improvement has a big element of inner reflection, which ends up being a lonely exercise.

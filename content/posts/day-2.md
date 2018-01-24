@@ -4,6 +4,10 @@ date: 2018-01-17T16:06:53+01:00
 draft: false
 authors: ["danielbe"]
 tags: ["apprenticeship", "Haskell"]
+images: ["/img/danielbolivar_avatar.jpeg"]
+twitterbase: 
+  image: /img/danielbolivar_avatar.jpeg
+  caption: Aspiring Software Crafter blog. New content daily.
 ---
 
 While the first day was mostly about formalities and sharing information, the second day was all about doing. The action took two different shapes: setting up this blog, and going through the first chapter of the [Haskell Book](http://haskellbook.com/).

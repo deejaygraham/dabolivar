@@ -4,6 +4,10 @@ date: 2018-01-23T08:29:17+01:00
 draft: false
 authors: ["danielbe"]
 tags: ["apprenticeship", "learning", "bash"]
+images: ["/img/danielbolivar_avatar.jpeg"]
+twitterbase: 
+  image: /img/danielbolivar_avatar.jpeg
+  caption: Aspiring Software Crafter blog. New content daily.
 ---
 
 I've always felt like I'm a good learner. It's on my CV even, "Daniel Bolívar: Good Learner. But after today, I don't know if it's that easy, and defining **Good Learning** or **Good Learners** seems really subjective, and therefore error prone. Today, I learned some **Bash**. But more importantly, I thought a lot about what **learning** really means.
