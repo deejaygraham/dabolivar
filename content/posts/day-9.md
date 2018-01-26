@@ -1,5 +1,5 @@
 ---
-title: "Day 9"
+title: "Day 9: on goodness"
 date: 2018-01-26T16:42:28+01:00
 draft: false
 authors: ["danielbe"]
