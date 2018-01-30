@@ -5,7 +5,7 @@ copyright = ""
 publishDir = "build"
 theme = "minimo"
 
-disqusShortname = ""
+disqusShortname = "dabolivar"
 googleAnalytics = "UA-112634013-1"
 
 Paginate = 5
