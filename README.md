@@ -1,2 +1,3 @@
 # Blog
 Apprenticeship Blog.
+.
