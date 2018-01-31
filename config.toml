@@ -20,7 +20,7 @@ pygmentsCodefences = true
 defaultContentLanguage = "en"
 
 [params.info]
-description = "Software apprentice @ HolidayCheck. This'll be a daily apprenticeship blog."
+description = "Aspiring Software Crafter @ HolidayCheck. This'll be a daily apprenticeship blog."
 title404 = "Oops, there's nothing here!"
 
 [params.assets]
