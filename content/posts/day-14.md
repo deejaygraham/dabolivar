@@ -1,5 +1,5 @@
 ---
-title: "Day 14"
+title: "Day 14: on divination"
 date: 2018-02-02T16:55:32+01:00
 draft: false
 authors: ["danielbe"]
