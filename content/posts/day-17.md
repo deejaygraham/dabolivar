@@ -18,6 +18,11 @@ In the morning, I met with  [Tobias](https://twitter.com/tpflug) and [Chris](htt
 Our first test went something like _given these 3 lines that do form a triangle, return the correct result of 1_. So far so good. And then I derailed us entirely by proposing that our next tests should be about the **negative** cases. Fast forward 1 hour and 15 minutes, and we had the following set of tests: 
 
 {{< highlight javascript >}}
+const A = {x: 0, y: 0};
+const B = {x: 100, y: 0};
+const C = {x: 50, y: 100};
+const D = {x: 5555, y: 5555};
+
 it('Finds a triangle where there is one', () => {
   const lines = [
     [A, B],
