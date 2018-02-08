@@ -1,5 +1,5 @@
 ---
-title: "Day 18"
+title: "Day 18: on language"
 date: 2018-02-08T17:29:04+01:00
 draft: false
 authors: ["danielbe"]
