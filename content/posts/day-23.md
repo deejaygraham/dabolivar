@@ -15,8 +15,7 @@ A couple days ago, I reflected on my [position of privilege](https://www.daboliv
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="en-gb"><p lang="en" dir="ltr">If people who don&#39;t know you can use a &lt;link&gt; tag can call themselves front-end developers nowadays I&#39;m proud of saying they don&#39;t belong in our craft.</p>&mdash; Peter-Paul Koch (@ppk) <a href="https://twitter.com/ppk/status/963850873003757569?ref_src=twsrc%5Etfw">14 February 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-This is a tweet from a notorious member of the tech community. I recommend reading the entire thread and some of the answers from other members of the community to form your own opinion on the matter. For context, he’s discussing the impact of modern tooling and frameworks in Frontend Development and how some people only know how to use frameworks and don’t really know how browsers work. He believes these people should not be part of his _craft_, whatever that is.
+This is a tweet from a notorious member of the tech world. I recommend reading the entire thread and some of the answers from other members of the community to form your own opinion on the matter. For context, he’s discussing the impact of modern tooling and frameworks in Frontend Development and how some people only know how to use frameworks and don’t really know how browsers work. He believes these people should not be part of his _craft_, whatever that is.
 
 This is elitism and gatekeeping. It’s ivory tower levels of conceit, regardless of position or accomplishments. This kind of language blocks doors and raises barriers. It's just not helping anyone in any way.
 
