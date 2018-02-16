@@ -1,7 +1,7 @@
 ---
 title: "Day 24: one month in"
 date: 2018-02-16T15:47:37+01:00
-draft: true
+draft: false
 authors: ["danielbe"]
 tags: ["apprenticeship"]
 images: ["/img/danielbolivar_avatar.jpeg"]
