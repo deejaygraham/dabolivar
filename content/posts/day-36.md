@@ -1,7 +1,7 @@
 ---
 title: "Day 36: on feedback, part 2"
 date: 2018-03-06T15:47:36+01:00
-draft: true
+draft: false
 authors: ["danielbe"]
 tags: ["apprenticeship", "feedback"]
 images: ["/img/danielbolivar_avatar.jpeg"]
