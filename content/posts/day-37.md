@@ -10,7 +10,7 @@ twitterbase:
   caption: Aspiring Software Crafter blog. New content daily.
 ---
 
-[Tobias](https://twitter.com/tpflug) told me recently that I should write a more “technical” blog. It’s true, I’ve been focusing much more on the behavioural aspects of Software Craftsmanship and there’s a reason for it: I would’ve probably been a psychologist if I hadn’t studied design. I find the human psyche and behaviour extremely intriguing and I spend a great deal of time thinking about it. Regardless, I think Tobias is right, and I should step out of my “_comfort zone_” and have a stab at a technical post. So, here it is. 
+[Tobias](https://twitter.com/tpflug) told me recently that I should write a more “technical” blog. It’s true, I’ve been focusing much more on the behavioural aspects of Software Craftsmanship and there’s a reason for it: I would’ve probably been a psychologist if I hadn’t studied design. I find the human psyche and behaviour extremely intriguing and I spend a great deal of time thinking about it. Regardless, I think Tobias is right, and I should step out of my “comfort zone” and have a stab at a technical post. So, here it is. 
 
 ## Maybe
 This word represents a possibility. Something’s either possible or impossible, but we don’t really know at the moment. We’ll know eventually, but right now, we don’t. So, maaaybe I’ll be able to finish chapter 12 of the [Haskell Book](http://haskellbook.com/) tomorrow, but I can’t promise anything. In the functional programming world, **Maybe** represents exactly this. And it’s awesome. 
