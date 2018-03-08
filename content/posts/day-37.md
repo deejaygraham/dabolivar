@@ -231,7 +231,9 @@ const Just = x => ({
 {{< /highlight >}}
 
 ## The end
-Is not really the end. My very shallow Maybe doesn’t really do much at this point, but the idea wasn’t to implement a fully fledged Maybe. It was more an attempt to see the differences between the languages in a practical way. It’s clear that Javascript has a lot of shortcomings when it comes to FP and seeing them in action when we write all those workarounds for simple things is quite interesting for me. And, like the title implies, this is the first in a series of Javascript / Haskell comparisons, where I'll try to get a deeper understanding of both. 
+Is not really the end. My very shallow Maybe doesn’t really do much at this point, but the idea wasn’t to implement a fully fledged Maybe. It was more an attempt to see the differences between the languages in a practical way. It’s clear that Javascript has a lot of shortcomings when it comes to FP and seeing them in action when we write all those workarounds for simple things is quite interesting for me. And, like the title implies, this is the first in a series of Javascript / Haskell comparisons, where I'll try to get a deeper understanding of both.
+
+[Gist with the code.](https://gist.github.com/ddanielbee/0ef3c0f124719fda1045dd7edd5c3ddf)
 
 ## Actual Maybes
 Here’s a list of resources for real JS implementations of these concepts: 
