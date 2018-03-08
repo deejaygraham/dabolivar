@@ -1,7 +1,7 @@
 ---
 title: "Day 38: on productivity"
 date: 2018-03-08T16:44:57+01:00
-draft: true
+draft: false
 authors: ["danielbe"]
 tags: ["apprenticeship", "productivity"]
 images: ["/img/danielbolivar_avatar.jpeg"]
